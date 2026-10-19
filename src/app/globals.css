@@ -1,0 +1,68 @@
+body {
+  background-color: lightblue;
+}
+.base {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  position:sticky;
+  background-color: rgba(128, 128, 128, 0.308);
+  border: 2px solid rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+}
+
+.citySearch {
+  width:100px;
+  height:100px;
+}
+
+.temps {
+  background:transparent;
+  display:flex;
+  width:100%;
+  height:auto;
+  overflow-x:auto;
+  scrollbar-color: rgba(255, 255, 255, 0);
+  scrollbar-width: thin;
+  box-shadow:10px black;
+  border-radius: 10px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.308);
+  border: 2px solid rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.card #img {
+  order:2;
+  width: 50%;
+  text-align:center;
+  font-size: 30px;
+  min-width: 10px
+}
+
+.card #temp {
+  background: none;
+  order:3
+}
+
+.card #state {
+  background-color: white;
+  order:4;
+}
+
+input {
+  background-color: rgba(128, 128, 128, 0.308);
+  border: 2px solid rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+}
